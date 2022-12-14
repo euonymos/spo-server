@@ -1,0 +1,36 @@
+packages: ./.
+
+allow-newer:
+  ouroboros-consensus-byron:formatting
+
+source-repository-package
+    type: git
+    location: https://github.com/euonymos/ouroboros-network
+    tag: 8a478f7342cfc75c0cef4f505454a6cc04ca42fa
+    --sha256: 1hpqwj9mqalypd501zw9fqp351xzh15lyrvmcqrhhnvcwmcwjdv5
+    subdir:
+      ouroboros-network-testing
+      monoidal-synchronisation
+      network-mux
+      ouroboros-network
+      ouroboros-network-api
+      ouroboros-network-framework
+      ouroboros-network-mock
+      ouroboros-network-protocols
+      ouroboros-network-testing
+      ouroboros-consensus
+      ouroboros-consensus-byron
+      ouroboros-consensus-byron-test
+      ouroboros-consensus-byronspec
+      ouroboros-consensus-cardano
+      ouroboros-consensus-cardano-test
+      ouroboros-consensus-mock
+      ouroboros-consensus-mock-test
+      ouroboros-consensus-protocol
+      ouroboros-consensus-shelley
+      ouroboros-consensus-shelley-test
+      ouroboros-consensus-test
+      ouroboros-consensus-cardano-tools
+      ouroboros-consensus-diffusion
+      ntp-client
+      cardano-client
