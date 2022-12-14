@@ -1985,6 +1985,22 @@
         "type": "github"
       }
     },
+    "ouroboros-network": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1671012034,
+        "narHash": "sha256-taFl0ETjfpWV0HkftIAYy2mNZSO0wc7qssPmyo4pJYc=",
+        "owner": "input-output-hk",
+        "repo": "ouroboros-network",
+        "rev": "f46e28e5ef036b2c3a5de19a4548cfb86f8576e5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "input-output-hk",
+        "repo": "ouroboros-network",
+        "type": "github"
+      }
+    },
     "plutus": {
       "inputs": {
         "CHaP": "CHaP",
@@ -2038,6 +2054,7 @@
     },
     "root": {
       "inputs": {
+        "ouroboros-network": "ouroboros-network",
         "tooling": "tooling"
       }
     },

@@ -15,10 +15,10 @@
   inputs = {
     tooling.url = "github:mlabs-haskell/mlabs-tooling.nix";
 
-    # ouroboros-network = {
-    #   url = "github:input-output-hk/ouroboros-network";
-    #   flake = false;
-    # };
+    ouroboros-network = {
+      url = "github:input-output-hk/ouroboros-network";
+      flake = false;
+    };
 
 #    cardano-node = {
 #      url = "github:input-output-hk/cardano-node?ref=erikd/ghc-9.2";
@@ -43,30 +43,30 @@
         (tooling.lib.mkHaskellFlakeModule1 {
           project.src = ./.;
           project.extraHackage = [
-            # "${inputs.ouroboros-network}/monoidal-synchronisation"
-            # "${inputs.ouroboros-network}/network-mux"
-            # "${inputs.ouroboros-network}/ouroboros-network"
-            # "${inputs.ouroboros-network}/ouroboros-network-api"
-            # "${inputs.ouroboros-network}/ouroboros-network-framework"
-            # "${inputs.ouroboros-network}/ouroboros-network-mock"
-            # "${inputs.ouroboros-network}/ouroboros-network-protocols"
-            # "${inputs.ouroboros-network}/ouroboros-network-testing"
-            # "${inputs.ouroboros-network}/ouroboros-consensus"
-            # "${inputs.ouroboros-network}/ouroboros-consensus-byron"
-            # "${inputs.ouroboros-network}/ouroboros-consensus-byron-test"
-            # "${inputs.ouroboros-network}/ouroboros-consensus-byronspec"
-            # "${inputs.ouroboros-network}/ouroboros-consensus-cardano"
-            # "${inputs.ouroboros-network}/ouroboros-consensus-cardano-test"
-            # "${inputs.ouroboros-network}/ouroboros-consensus-mock"
-            # "${inputs.ouroboros-network}/ouroboros-consensus-mock-test"
-            # "${inputs.ouroboros-network}/ouroboros-consensus-protocol"
-            # "${inputs.ouroboros-network}/ouroboros-consensus-shelley"
-            # "${inputs.ouroboros-network}/ouroboros-consensus-shelley-test"
-            # "${inputs.ouroboros-network}/ouroboros-consensus-test"
-            # "${inputs.ouroboros-network}/ouroboros-consensus-cardano-tools"
-            # "${inputs.ouroboros-network}/ouroboros-consensus-diffusion"
-            # "${inputs.ouroboros-network}/ntp-client"
-            # "${inputs.ouroboros-network}/cardano-client"
+            "${inputs.ouroboros-network}/monoidal-synchronisation"
+            "${inputs.ouroboros-network}/network-mux"
+            "${inputs.ouroboros-network}/ouroboros-network"
+            "${inputs.ouroboros-network}/ouroboros-network-api"
+            "${inputs.ouroboros-network}/ouroboros-network-framework"
+            "${inputs.ouroboros-network}/ouroboros-network-mock"
+            "${inputs.ouroboros-network}/ouroboros-network-protocols"
+            "${inputs.ouroboros-network}/ouroboros-network-testing"
+            "${inputs.ouroboros-network}/ouroboros-consensus"
+            "${inputs.ouroboros-network}/ouroboros-consensus-byron"
+            "${inputs.ouroboros-network}/ouroboros-consensus-byron-test"
+            "${inputs.ouroboros-network}/ouroboros-consensus-byronspec"
+            "${inputs.ouroboros-network}/ouroboros-consensus-cardano"
+            "${inputs.ouroboros-network}/ouroboros-consensus-cardano-test"
+            "${inputs.ouroboros-network}/ouroboros-consensus-mock"
+            "${inputs.ouroboros-network}/ouroboros-consensus-mock-test"
+            "${inputs.ouroboros-network}/ouroboros-consensus-protocol"
+            "${inputs.ouroboros-network}/ouroboros-consensus-shelley"
+            "${inputs.ouroboros-network}/ouroboros-consensus-shelley-test"
+            "${inputs.ouroboros-network}/ouroboros-consensus-test"
+            "${inputs.ouroboros-network}/ouroboros-consensus-cardano-tools"
+            "${inputs.ouroboros-network}/ouroboros-consensus-diffusion"
+            "${inputs.ouroboros-network}/ntp-client"
+            "${inputs.ouroboros-network}/cardano-client"
 
 
 
