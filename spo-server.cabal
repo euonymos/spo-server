@@ -77,8 +77,8 @@ library
       , optics
   --    , optim-offchain
       , optparse-applicative
-    --   , ouroboros-consensus
-    --   , ouroboros-network
+      , ouroboros-consensus
+      , ouroboros-network
       , persistent
       , persistent-pagination
       , persistent-postgresql
