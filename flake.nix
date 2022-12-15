@@ -21,21 +21,20 @@
     #   flake = false;
     # };
 
-#    cardano-node = {
-#      url = "github:input-output-hk/cardano-node?ref=erikd/ghc-9.2";
-#      flake = false;
-#    };
+    # cardano-node = {
+      # url = "github:input-output-hk/cardano-node?ref=erikd/ghc-9.2";
+      # flake = false;
+    # };
 
-#    plutus = {
-#      url = "github:input-output-hk/plutus?rev=867fd234301d28525404de839d9a3c8220cbea63";
-#      flake = false;
-#    };
-#
-#    cardano-ledger = {
-#      url = "github:input-output-hk/cardano-ledger?rev=760a73e89ef040d3ad91b4b0386b3bbace9431a9";
-#      flake = false;
-#    };
+    # plutus = {
+      # url = "github:input-output-hk/plutus?rev=867fd234301d28525404de839d9a3c8220cbea63";
+      # flake = false;
+    # };
 
+    # cardano-ledger = {
+      # url = "github:input-output-hk/cardano-ledger?rev=760a73e89ef040d3ad91b4b0386b3bbace9431a9";
+      # flake = false;
+    # };
   };
 
   outputs = inputs@{ self, tooling, ... }: tooling.lib.mkFlake { inherit self; }
@@ -68,9 +67,6 @@
             # "${inputs.ouroboros-network}/ouroboros-consensus-diffusion"
             # "${inputs.ouroboros-network}/ntp-client"
             # "${inputs.ouroboros-network}/cardano-client"
-
-
-
 
 
           #  "${inputs.ouroboros-network}/ouroboros-consensus"
