@@ -32,6 +32,7 @@ library
     build-depends:
         base ^>=4.16.3.0
       , ouroboros-network
+      , io-classes
 
     hs-source-dirs:   src
     default-language: Haskell2010
