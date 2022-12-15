@@ -30,9 +30,83 @@ library
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
     build-depends:
-        base ^>=4.16.3.0
-      , ouroboros-network
-      , io-classes
+        aeson
+      , async
+      , base
+      , base16
+      , bech32
+      , bech32-th
+      , bytestring
+      , cardano-api
+      , cardano-binary
+      , cardano-crypto-class
+      , cardano-crypto-wrapper
+      , cardano-ledger-alonzo
+      , cardano-ledger-babbage
+      , cardano-ledger-core
+      , cardano-ledger-shelley
+      , cardano-slotting
+      , conduit
+      , containers
+      , cryptohash-sha256
+      , cryptonite
+      , deferred-folds
+      , directory
+      , either
+      , esqueleto
+      , exceptions
+      , extra
+      , filepath
+      , focus
+      , hashable
+      , heaps
+      , hs-opentelemetry-api
+      , hs-opentelemetry-sdk
+      , http-client
+      , http-client
+      , http-conduit
+      , http-media
+      , http-types
+      , katip
+      , lifted-async
+      , lifted-base
+      , memory
+      , monad-control
+      , monad-logger
+      , mtl
+      , optics
+  --    , optim-offchain
+      , optparse-applicative
+    --   , ouroboros-consensus
+    --   , ouroboros-network
+      , persistent
+      , persistent-pagination
+      , persistent-postgresql
+      , plutus-core
+      , plutus-ledger-api
+  --    , plutus-simple-model
+      , plutus-tx
+  --    , ply-core
+      , prettyprinter
+      , random
+      , resource-pool
+      , safe-exceptions
+      , serialise
+      , servant
+      , servant-pagination > 2.1
+      , servant-server
+      , stm
+      , stm-containers
+      , string-conv
+      , text
+      , time
+      , transformers
+      , transformers-base
+      , transformers-except
+      , unordered-containers
+      , vector
+      , wai
+      , websockets
 
     hs-source-dirs:   src
     default-language: Haskell2010
