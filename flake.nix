@@ -14,6 +14,7 @@
 
   inputs = {
     tooling.url = "github:mlabs-haskell/mlabs-tooling.nix";
+    # tooling.url = "/src/wrover/src/nix/mlabs-tooling";
 
     # ouroboros-network = {
     #   url = "github:input-output-hk/ouroboros-network";
