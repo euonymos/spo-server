@@ -1988,16 +1988,17 @@
     "ouroboros-network": {
       "flake": false,
       "locked": {
-        "lastModified": 1671012034,
-        "narHash": "sha256-taFl0ETjfpWV0HkftIAYy2mNZSO0wc7qssPmyo4pJYc=",
+        "lastModified": 1669294553,
+        "narHash": "sha256-vALaa+Vc5hpCHRhYNOx9nAVq8h2fbsnjG2GBzUrDFY0=",
         "owner": "input-output-hk",
         "repo": "ouroboros-network",
-        "rev": "f46e28e5ef036b2c3a5de19a4548cfb86f8576e5",
+        "rev": "679c7da2079a5e9972a1c502b6a4d6af3eb76945",
         "type": "github"
       },
       "original": {
         "owner": "input-output-hk",
         "repo": "ouroboros-network",
+        "rev": "679c7da2079a5e9972a1c502b6a4d6af3eb76945",
         "type": "github"
       }
     },

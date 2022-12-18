@@ -16,7 +16,7 @@
     tooling.url = "github:mlabs-haskell/mlabs-tooling.nix";
 
     ouroboros-network = {
-      url = "github:input-output-hk/ouroboros-network";
+      url = "github:input-output-hk/ouroboros-network/679c7da2079a5e9972a1c502b6a4d6af3eb76945";
       flake = false;
     };
 
@@ -46,10 +46,10 @@
             "${inputs.ouroboros-network}/monoidal-synchronisation"
             "${inputs.ouroboros-network}/network-mux"
             "${inputs.ouroboros-network}/ouroboros-network"
-            "${inputs.ouroboros-network}/ouroboros-network-api"
+            # "${inputs.ouroboros-network}/ouroboros-network-api"
             "${inputs.ouroboros-network}/ouroboros-network-framework"
-            "${inputs.ouroboros-network}/ouroboros-network-mock"
-            "${inputs.ouroboros-network}/ouroboros-network-protocols"
+            # "${inputs.ouroboros-network}/ouroboros-network-mock"
+            # "${inputs.ouroboros-network}/ouroboros-network-protocols"
             "${inputs.ouroboros-network}/ouroboros-network-testing"
             "${inputs.ouroboros-network}/ouroboros-consensus"
             "${inputs.ouroboros-network}/ouroboros-consensus-byron"
@@ -64,7 +64,7 @@
             "${inputs.ouroboros-network}/ouroboros-consensus-shelley-test"
             "${inputs.ouroboros-network}/ouroboros-consensus-test"
             "${inputs.ouroboros-network}/ouroboros-consensus-cardano-tools"
-            "${inputs.ouroboros-network}/ouroboros-consensus-diffusion"
+            # "${inputs.ouroboros-network}/ouroboros-consensus-diffusion"
             "${inputs.ouroboros-network}/ntp-client"
             "${inputs.ouroboros-network}/cardano-client"
 
